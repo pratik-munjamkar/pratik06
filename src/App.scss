@@ -1,0 +1,19 @@
+.App{
+    height:100vh;
+
+    .sections{
+        width:100%;
+        height: calc(100vh - 70px);
+        background-color:white;
+        position:relative;
+        top: 70px;
+        scroll-behavior: smooth;
+
+        >*{
+            width: 100vw;
+            
+            scroll-snap-align: start;
+        }
+    }
+
+}
